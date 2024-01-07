@@ -16,21 +16,21 @@
   <meta name="author" content="wbc">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="找到配置文件 &#x2F;etc&#x2F;sysctl.conf1vi &#x2F;etc&#x2F;sysctl.conf  打开后 找到 net.ipv4.icmp_echo_ignore_all 如果没有自己加上1234net.ipv4.icmp_echo_ignore_all&#x3D;1 表示禁止pingnet.ipv4.icmp_echo_ignore_all&#x3D;0 表示允许ping    修改完成配置文件之后 执">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2024/01/07/hello-world/index.html">
+<meta property="og:title" content="liunx_禁ping">
+<meta property="og:url" content="http://example.com/2024/01/07/liunx-%E7%A6%81ping/index.html">
 <meta property="og:site_name" content="阿冰个人博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="找到配置文件 &#x2F;etc&#x2F;sysctl.conf1vi &#x2F;etc&#x2F;sysctl.conf  打开后 找到 net.ipv4.icmp_echo_ignore_all 如果没有自己加上1234net.ipv4.icmp_echo_ignore_all&#x3D;1 表示禁止pingnet.ipv4.icmp_echo_ignore_all&#x3D;0 表示允许ping    修改完成配置文件之后 执">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-01-07T09:46:39.205Z">
-<meta property="article:modified_time" content="2024-01-07T09:46:39.205Z">
+<meta property="article:published_time" content="2024-01-07T10:50:36.000Z">
+<meta property="article:modified_time" content="2024-01-07T10:52:14.266Z">
 <meta property="article:author" content="wbc">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Hello World - 阿冰个人博客</title>
+  <title>liunx_禁ping - 阿冰个人博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -196,7 +196,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello World"></span>
+            <span id="subtitle" data-typed-text="liunx_禁ping"></span>
           
         </div>
 
@@ -207,8 +207,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-01-07 17:46" pubdate>
-          2024年1月7日 下午
+        <time datetime="2024-01-07 18:50" pubdate>
+          2024年1月7日 晚上
         </time>
       </span>
     
@@ -219,7 +219,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          18 字
+          62 字
         
       </span>
     
@@ -267,25 +267,18 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Hello World</h1>
+            <h1 id="seo-header">liunx_禁ping</h1>
             
             
               <div class="markdown-body">
                 
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+                <h1 id="找到配置文件-etc-sysctl-conf"><a href="#找到配置文件-etc-sysctl-conf" class="headerlink" title="找到配置文件 &#x2F;etc&#x2F;sysctl.conf"></a>找到配置文件 &#x2F;etc&#x2F;sysctl.conf</h1><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs vim"><span class="hljs-keyword">vi</span> /etc/sysctl.<span class="hljs-keyword">conf</span><br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<h1 id="打开后-找到-net-ipv4-icmp-echo-ignore-all-如果没有自己加上"><a href="#打开后-找到-net-ipv4-icmp-echo-ignore-all-如果没有自己加上" class="headerlink" title="打开后 找到 net.ipv4.icmp_echo_ignore_all 如果没有自己加上"></a>打开后 找到 net.ipv4.icmp_echo_ignore_all 如果没有自己加上</h1><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs dos"><span class="hljs-built_in">net</span>.ipv4.icmp_echo_ignore_all=<span class="hljs-number">1</span> 表示禁止<span class="hljs-built_in">ping</span><br><br><span class="hljs-built_in">net</span>.ipv4.icmp_echo_ignore_all=<span class="hljs-number">0</span> 表示允许<span class="hljs-built_in">ping</span><br><br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+<h1 id="修改完成配置文件之后-执行-sysctl-p-使新配置生效。"><a href="#修改完成配置文件之后-执行-sysctl-p-使新配置生效。" class="headerlink" title="修改完成配置文件之后 执行 sysctl -p 使新配置生效。"></a>修改完成配置文件之后 执行 sysctl -p 使新配置生效。</h1>
                 
               </div>
             
@@ -302,8 +295,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>http://example.com/2024/01/07/hello-world/</div>
+      <div>liunx_禁ping</div>
+      <div>http://example.com/2024/01/07/liunx-禁ping/</div>
     </div>
     <div class="license-meta">
       
@@ -347,9 +340,21 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2024/01/07/mysql-8-0-20%E5%AE%89%E8%A3%85/" title="mysql_8.0.20安装">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">mysql_8.0.20安装</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2024/01/07/liunx-%E5%AE%89%E8%A3%85nginx/" title="liunx_安装 nginx">
+                        <span class="hidden-mobile">liunx_安装 nginx</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
